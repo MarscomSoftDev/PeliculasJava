@@ -6,8 +6,7 @@ public class Principal {
         miPelicula.fechaDeLanzamiento = 2021;
         miPelicula.duracionEnMinutos = 120;
 
-        System.out.println("Mi pelicula es: " + miPelicula.nombre);
-        System.out.println("Fue lanzada el:" + miPelicula.fechaDeLanzamiento);
+
         System.out.println("Con una duracion de: " + miPelicula.duracionEnMinutos);
 
         Pelicula otraPelicula = new Pelicula();
@@ -17,7 +16,7 @@ public class Principal {
 
         System.out.println("Mi pelicula es: " + otraPelicula.nombre);
         System.out.println("Fue lanzada el:" + otraPelicula.fechaDeLanzamiento);
-        System.out.println("Con una duracionbnn de: " + otraPelicula.duracionEnMinutos);
+        System.out.println("Con una duracion de: " + otraPelicula.duracionEnMinutos);
 
 
 
