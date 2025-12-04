@@ -6,18 +6,21 @@ public class Principal {
         miPelicula.fechaDeLanzamiento = 2021;
         miPelicula.duracionEnMinutos = 120;
 
+        miPelicula.muestraFichaTecnica();
+        miPelicula.evalua(10);
+        miPelicula.evalua(10);
 
-        System.out.println("Con una duracion de: " + miPelicula.duracionEnMinutos);
+        System.out.println("Nota de la pelicula: " + miPelicula.sumaDeLasEvaluaciones);
+        System.out.println(miPelicula.totalDeLasEvaluaciones);
+        System.out.println(miPelicula.calculaMedia());
+
 
         Pelicula otraPelicula = new Pelicula();
         otraPelicula.nombre = "matrix";
         otraPelicula.fechaDeLanzamiento = 1988;
         otraPelicula.duracionEnMinutos = 180;
 
-        System.out.println("Mi pelicula es: " + otraPelicula.nombre);
-        System.out.println("Fue lanzada el:" + otraPelicula.fechaDeLanzamiento);
-        System.out.println("Con una duracion de: " + otraPelicula.duracionEnMinutos);
-
+        otraPelicula.muestraFichaTecnica();
 
 
     }
