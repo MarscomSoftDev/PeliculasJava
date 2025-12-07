@@ -9,7 +9,15 @@ public class Principal {
         miPelicula.setDuracionEnMinutos(120);
         miPelicula.setIncluidoEnElPlan(true);
 
+        int fecha = miPelicula.getFechaDeLanzamiento();
+        System.out.println("ensayio"+ fecha);
+
         miPelicula.muestraFichaTecnica();
+
+
+
+
+
         miPelicula.evalua(10);
         miPelicula.evalua(10);
         miPelicula.evalua(7.8);
