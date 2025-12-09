@@ -1,7 +1,7 @@
 package com.marscom.screenmatch.modelos;
 
 public class Titulo {
-    public class Pelicula {
+
         private String nombre;
         private int fechaDeLanzamiento;
         private int duracionEnMinutos;

@@ -1,6 +1,6 @@
 package com.marscom.screenmatch.modelos;
 
-public class Pelicula {
+public class Pelicula extends Titulo {
   private String director;
 
     public String getDirector() {

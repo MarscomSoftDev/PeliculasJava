@@ -15,9 +15,6 @@ public class Principal {
         miPelicula.muestraFichaTecnica();
 
 
-
-
-
         miPelicula.evalua(10);
         miPelicula.evalua(10);
         miPelicula.evalua(7.8);
