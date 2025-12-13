@@ -1,4 +1,5 @@
 import com.marscom.screenmatch.modelos.Pelicula;
+import com.marscom.screenmatch.modelos.Serie;
 
 public class Principal {
 
@@ -21,9 +22,14 @@ public class Principal {
         System.out.println(miPelicula.getTotalDeLasEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
 
-
-
-
+        Serie casaDragon = new Serie();
+        casaDragon.setNombre("La Casa del Dragon");
+        casaDragon.setFechaDeLanzamiento(2022);
+        casaDragon.setTemporadas(1);
+        casaDragon.setMinutosPorEpisodio(50);
+        casaDragon.setEpisodiosPorTemporda(10);
+        casaDragon.muestraFichaTecnica();
+        System.out.println(casaDragon.getDuracionEnMinutos());
 
 
 
