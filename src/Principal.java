@@ -1,5 +1,6 @@
 import com.marscom.screenmatch.modelos.Pelicula;
 import com.marscom.screenmatch.modelos.Serie;
+import com.marscom.screnmatch.calculos.CalculadoraDeTiempo;
 
 public class Principal {
 
@@ -31,7 +32,10 @@ public class Principal {
         casaDragon.muestraFichaTecnica();
         System.out.println(casaDragon.getDuracionEnMinutos());
 
-
+        CalculadoraDeTiempo calculadora = new CalculadoraDeTiempo();
+        calculadora.incluye(miPelicula);
+        calculadora.incluye(casaDragon);
+        System.out.println(calculadora.getTiempoTotal());
 
 
 
